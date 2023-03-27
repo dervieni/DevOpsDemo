@@ -12,5 +12,13 @@ public class MathLabTest {
         Assertions.assertEquals(15, m.sum(7, 8));
         Assertions.assertEquals(13, m.sum(6, 7));
     }
-    
+
+    @Test
+    public void EvenTEST() {
+        MathLab m = new MathLab();
+        Assertions.assertEquals("Die Summe 10 ist gerade", m.even(5, 5));
+        Assertions.assertEquals("Die Summe 15 ist nicht gerade", m.even(7, 8));
+        Assertions.assertEquals("Die Summe 13 ist nicht gerade", m.even(6, 7));
+    }
+
 }
