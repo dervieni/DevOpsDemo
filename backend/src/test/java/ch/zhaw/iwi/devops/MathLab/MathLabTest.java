@@ -22,11 +22,15 @@ public class MathLabTest {
     }
 
     @Test
-    public void EvenPrimeTEST() {
+    public void PrimeTEST() {
         MathLab m = new MathLab();
         Assertions.assertEquals("Die Summe 10 ist gerade und keine Primzahl", m.prime(5, 5));
         Assertions.assertEquals("Die Summe 15 ist nicht gerade und keine Primzahl", m.prime(7, 8));
         Assertions.assertEquals("Die Summe 13 ist nicht gerade und eine Primzahl", m.prime(6, 7));
+        Assertions.assertEquals("Die Summe 99 ist nicht gerade und keine Primzahl", m.prime(90, 9));
+        Assertions.assertEquals("Die Summe 19 ist nicht gerade und eine Primzahl", m.prime(6, 13));
+        Assertions.assertEquals("Die Summe 42 ist gerade und keine Primzahl", m.prime(3, 39));
+        Assertions.assertEquals("Die Summe 29 ist nicht gerade und eine Primzahl", m.prime(7, 22));
     }
 
 }
