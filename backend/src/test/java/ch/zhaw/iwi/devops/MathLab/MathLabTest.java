@@ -1,9 +1,8 @@
-package ch.zhaw.iwi.devops.MathLab;
+package ch.zhaw.iwi.devops.mathlab;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import ch.zhaw.iwi.devops.mathlab.MathLab;
 
 public class MathLabTest {
 
@@ -33,7 +32,7 @@ public class MathLabTest {
         Assertions.assertEquals("Die Summe 19 ist nicht gerade und eine Primzahl", m.prime(6, 13));
         Assertions.assertEquals("Die Summe 42 ist gerade und keine Primzahl", m.prime(3, 39));
         Assertions.assertEquals("Die Summe 29 ist nicht gerade und eine Primzahl", m.prime(7, 22));
-        Assertions.assertEquals("Die Summe 1 ist nicht gerade und keine Primzahl", m.prime(1, 1));
+        Assertions.assertEquals("Die Summe 1 ist nicht gerade und keine Primzahl", m.prime(1, 0));
     }
 
 }
