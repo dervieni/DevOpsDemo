@@ -1,4 +1,4 @@
-package ch.zhaw.iwi.devops.MathLab;
+package ch.zhaw.iwi.devops.mathlab;
 
 public class MathLab {
     
@@ -8,8 +8,8 @@ public class MathLab {
     }
 
     public String even(int a, int b) {
-        Boolean Even=sum(a, b)%2==0;
-        if (Even==true) {
+        Boolean even=sum(a, b)%2==0;
+        if (Boolean.TRUE.equals(even)) {
             return("Die Summe "+String.valueOf(sum(a, b))+" ist gerade");
         } else {
             return("Die Summe "+String.valueOf(sum(a, b))+" ist nicht gerade");
