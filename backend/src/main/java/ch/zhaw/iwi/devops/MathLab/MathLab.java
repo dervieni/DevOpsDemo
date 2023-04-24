@@ -21,7 +21,7 @@ public class MathLab {
         if (Boolean.TRUE.equals(even)) {
             return(size+" und ist gerade");
         } else {
-            return(size+"und ist nicht gerade");
+            return(size+" und ist nicht gerade");
         } 
     }
 
