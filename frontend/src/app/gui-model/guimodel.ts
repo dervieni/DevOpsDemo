@@ -95,7 +95,7 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps, Dies ist eine Änderung</h4>",
+                            "value": "<h4>Willkommen bei DevOps, Dies ist Änderung Nr. 2</h4>",
                             "newRow": true
                         },
                         {
