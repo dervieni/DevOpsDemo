@@ -95,14 +95,14 @@ export class GuiModel {
                     "elementList": [
                         {
                             "type": "pageLabel",
-                            "value": "<h4>Willkommen bei DevOps</h4>",
+                            "value": "<h4>Willkommen bei DevOps, Dies ist eine Änderung</h4>",
                             "newRow": true
                         },
                         {
                             "type": "button",
                             "name": { default: "ToDo-List" },
                             "icon": "fa-file-alt",
-                            "color": "wet-asphalt",
+                            "color": "green",
                             "page": "toDoPage",
                             "width": 2,
                             "newRow": true,
@@ -119,7 +119,7 @@ export class GuiModel {
                             "type": "newButton",
                             "name": { default: "Neues ToDo"},
                             "icon": "fa-user",
-                            "color": "green",
+                            "color": "wet-asphalt",
                             "width": 2,
                             "form" : {
                                 "form" : "ToDoForm"
